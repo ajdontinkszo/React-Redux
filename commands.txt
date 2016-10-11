@@ -12,7 +12,7 @@ create .gitignore : node_modules/
 npm install --save-dev webpack webpack-dev-middleware
 λ npm install --save-dev babel-loader
 λ npm install --save-dev babel-preset-react
-
+npm install --save-dev react-hot-loader webpack-hot-middleware
 
 
 
