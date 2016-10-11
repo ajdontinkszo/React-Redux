@@ -1,0 +1,18 @@
+npm init -y
+git init
+node server/index.js
+$ npm install --save-dev babel-cli babel-preset-latest
+npm install --save-dev babel-preset-es2015
+
+package.json ->     scripts -> "server": "babel-node server/index.js",
+npm install  --save-dev nodemon = to not need to  restart node server every time
+package.json -> "server": "nodemon --watch server --exec babel-node -- server/index.js",
+npm install --save react react-dom
+create .gitignore : node_modules/ 
+npm install --save-dev webpack webpack-dev-middleware
+λ npm install --save-dev babel-loader
+λ npm install --save-dev babel-preset-react
+
+
+
+
